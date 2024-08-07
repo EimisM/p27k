@@ -21,7 +21,7 @@ def min_list(numbers: int) -> int:
     else:
         return min(numbers)
     
-def remove_duplicates(numbers: int) -> Tuple:
+def remove_duplicates(numbers: int) -> Tuple[int]:
     seen = set()
     unique_items = []
     for item in numbers:
